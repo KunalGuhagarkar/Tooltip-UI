@@ -47,6 +47,5 @@ svg {
 }
 
 svg:has(+ .nav-container > p:nth-of-type(1):hover) {
-    background-color: red;
-    text-decoration: underline;
+    transform: translateX(-100px);
 }

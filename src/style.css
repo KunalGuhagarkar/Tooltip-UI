@@ -4,13 +4,16 @@
     box-sizing: border-box;
 }
 
-body {
-    height: 100vh;
-}
-
 .main-container {
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.tooltip-container {
+    background-color: black;
+    color: white;
+    width: 300px;
 }

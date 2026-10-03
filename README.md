@@ -8,6 +8,10 @@ This project is based on the [Tooltip UI project on roadmap.sh](https://roadmap.
 
 This project practises CSS positioning, hover effects, and smooth transitions to create dynamic UI behaviour without scripting. The tooltip sits above the navigation bar, and a triangular pointer animates to whichever item is hovered (Home, Projects, or Blog).
 
+## Demo
+
+![Tooltip UI demo](./demo.gif)
+
 ## Features
 
 - Pure HTML and CSS, with zero JavaScript

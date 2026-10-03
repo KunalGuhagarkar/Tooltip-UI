@@ -57,7 +57,6 @@ svg {
 .main-container:has(.nav-container > p:nth-child(odd):hover) .tooltip-container {
     opacity: 1;
     visibility: visible;
-    text-decoration: underline;
 }
 
 .main-container:has(.nav-container > p:nth-child(odd):hover) svg {
@@ -68,6 +67,7 @@ svg {
 
 .main-container:has(.nav-container > p:nth-child(1):hover) svg {
     transform: translateX(-100px) translateY(-5px);
+    text-decoration: underline;
 }
 
 .main-container:has(.nav-container > p:nth-child(3):hover) svg {

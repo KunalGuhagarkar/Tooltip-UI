@@ -10,7 +10,7 @@ This project practises CSS positioning, hover effects, and smooth transitions to
 
 ## Demo
 
-![Tooltip UI demo](./demo.gif)
+![Tooltip UI demo](./src/images/tooltip-preview.gif)
 
 ## Features
 

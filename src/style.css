@@ -41,20 +41,21 @@
     font-size: 1.2rem;
 }
 
-
 .nav-container > p:nth-child(odd) {
     cursor: pointer;
 }
 
-
 svg {
     opacity: 0;
     visibility: hidden;
-    transition: opacity 0.3s ease, transform 0.35s cubic-bezier(0.25, 1, 0.5, 1), visibility 0.3s ease;
+    transition:
+        opacity 0.3s ease,
+        transform 0.35s cubic-bezier(0.25, 1, 0.5, 1),
+        visibility 0.3s ease;
 }
 
-
-.main-container:has(.nav-container > p:nth-child(odd):hover) .tooltip-container {
+.main-container:has(.nav-container > p:nth-child(odd):hover)
+    .tooltip-container {
     opacity: 1;
     visibility: visible;
 }
@@ -64,10 +65,8 @@ svg {
     visibility: visible;
 }
 
-
 .main-container:has(.nav-container > p:nth-child(1):hover) svg {
     transform: translateX(-100px) translateY(-5px);
-    text-decoration: underline;
 }
 
 .main-container:has(.nav-container > p:nth-child(3):hover) svg {

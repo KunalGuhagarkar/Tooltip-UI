@@ -43,10 +43,12 @@
 
 svg {
     position: relative;
+    visibility: hidden;
     transform: translateY(-5px);
 }
 
 svg:has(+ .nav-container > p:nth-of-type(1):hover) {
+    visibility: visible;
     transform: translateX(-100px) translateY(-5px);
     transition: 1s ease;
 }

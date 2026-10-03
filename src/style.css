@@ -46,6 +46,44 @@ svg {
     font-size: 1.2rem;
 }
 
-.nav-container > p:hover svg {
-    
+/* Add pointer cursors to the clickable navigation items */
+.nav-container > p:nth-child(odd) {
+    cursor: pointer;
+}
+
+/* Hide both the tooltip box and arrow by default, adding a smooth transition */
+.tooltip-container, svg {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, transform 0.35s cubic-bezier(0.25, 1, 0.5, 1), visibility 0.3s ease;
+}
+
+/* --- REVEAL RULES --- */
+
+/* If the user hovers over ANY of the text links, fade in the tooltip and arrow */
+.main-container:has(.nav-container > p:nth-child(odd):hover) .tooltip-container {
+    opacity: 1;
+    visibility: visible;
+}
+
+.main-container:has(.nav-container > p:nth-child(odd):hover) svg {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* --- DYNAMIC ARROW POSITIONING --- */
+
+/* Position 1: Hovering over "Home" (1st paragraph item) */
+.main-container:has(.nav-container > p:nth-child(1):hover) svg {
+    transform: translateX(-105px) translateY(-5px);
+}
+
+/* Position 2: Hovering over "Projects" (3rd paragraph item - your original spot!) */
+.main-container:has(.nav-container > p:nth-child(3):hover) svg {
+    transform: translateX(-15px) translateY(-5px);
+}
+
+/* Position 3: Hovering over "Blog" (5th paragraph item) */
+.main-container:has(.nav-container > p:nth-child(5):hover) svg {
+    transform: translateX(78px) translateY(-5px);
 }

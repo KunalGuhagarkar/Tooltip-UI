@@ -75,7 +75,7 @@ svg {
 
 /* Position 1: Hovering over "Home" (1st paragraph item) */
 .main-container:has(.nav-container > p:nth-child(1):hover) svg {
-    transform: translateX(-105px) translateY(-5px);
+    transform: translateX(0) translateY(0);
 }
 
 /* Position 2: Hovering over "Projects" (3rd paragraph item - your original spot!) */

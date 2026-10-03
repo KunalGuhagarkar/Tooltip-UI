@@ -80,10 +80,10 @@ svg {
 
 /* Position 2: Hovering over "Projects" (3rd paragraph item - your original spot!) */
 .main-container:has(.nav-container > p:nth-child(3):hover) svg {
-    transform: translateX(-15px) translateY(-5px);
+    transform: translateX(0) translateY(-5px);
 }
 
 /* Position 3: Hovering over "Blog" (5th paragraph item) */
 .main-container:has(.nav-container > p:nth-child(5):hover) svg {
-    transform: translateX(78px) translateY(-5px);
+    transform: translateX(100px) translateY(-5px);
 }

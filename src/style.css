@@ -50,4 +50,8 @@ svg {
     from {
         transform: translateX(-100px) translateY(-5px);
     }
+
+    to {
+        transform: translateX(0) translateY(0);
+    }
 }

@@ -47,5 +47,7 @@ svg {
 }
 
 @keyframes tooltip-animation {
-    
+    from {
+        transform: translateX(-100px) translateY(-5px);
+    }
 }

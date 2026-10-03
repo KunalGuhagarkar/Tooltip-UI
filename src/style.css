@@ -45,3 +45,7 @@ svg {
     position: relative;
     transform: translateY(-5px);
 }
+
+.nav-container > p:nth-of-type(1):hover {
+    text-decoration: underline;
+}

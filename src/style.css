@@ -43,4 +43,5 @@
 
 svg {
     position: relative;
+    transform: translateY(-5px);
 }
